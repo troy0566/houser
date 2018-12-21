@@ -1,0 +1,41 @@
+.Dash {
+  width: 50vw;
+  background-color: #E5F4EC;
+}
+
+.dash_subheader {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.dash_heading {
+  font-size: 40px;
+  color: #3B5249;
+  margin: 20px;
+}
+
+.dash_subheader_button {
+  margin: 20px;
+  background-color: #8AEA92;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.dash_subheader_button:hover {
+  cursor: pointer;
+}
+
+.dash_prop_container {
+  border-top: solid 1px black;
+  margin: 0 20px 10px;
+}
+
+.dash_prop_heading {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
